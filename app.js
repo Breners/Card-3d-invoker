@@ -8,7 +8,6 @@ const title = document.querySelector('.title');
 const invoker = document.querySelector('.invoker img');
 const seeHero = document.querySelector('.seeHero button');
 const description = document.querySelector('.info h3');
-const sizes = document.querySelector('.sizes');
 
 //Moving animation Event 
 
@@ -26,7 +25,7 @@ container.addEventListener("mouseenter", (e) => {
   title.style.transform = 'translateZ(150px)';
   invoker.style.transform = 'translateZ(10ch)';
   description.style.transform = 'translateZ(125px)';
-  seeHero.style.transform = 'translateZ(75px)';
+  seeHero.style.transform = 'translateZ(100px)';
 });
 
 // Animate out
